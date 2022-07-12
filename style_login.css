@@ -1,0 +1,62 @@
+body {
+  background: #EEE;
+  margin: 0;
+  padding: 0;
+  font-family: Rubik, Arial;
+  float: center
+}
+
+form {
+  line-height: 25px;
+}
+
+h1 {
+  font-size: 3em;
+  overflow: break;
+}
+
+
+.overlay {
+  width: 80%;
+  min-width: 30%;
+  margin: 3% auto;
+  display: block;
+  padding: 2%;
+  height: 90vh;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 40px;
+  text-align: center;
+}
+
+.navigation {
+  box-sizing: border-box;
+  background-color: rgb(57, 169, 219);
+  background-image: ./images/logo.jpeg;
+  overflow: auto;
+  padding: 18px 50px;
+  position: relative;
+  font-size: 18px;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  color: #000;
+  text-transform: uppercase;
+
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  color: #FFF;
+}
+
+li {
+  color: #000;
+  display: inline-block;
+  font-family: Rubik, Arial;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin: 0;
+  padding: 20px 18px 10px 18px;
+
+}

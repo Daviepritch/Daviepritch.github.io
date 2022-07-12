@@ -1,0 +1,102 @@
+ <!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <title>DEP Web - Form</title>
+  <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+  <link href="style_form.css" type="text/css" rel="stylesheet">
+</head>
+  <body>
+  <nav>
+  <ul class="navigation">
+    <li><a href="./home.html" style="text-decoration:none;">Main Page</a></li>
+    <li><a href="./form.html" style="text-decoration:none;">Form</a></li>
+    <li><a href="./table.html" style="text-decoration:none;">Pricing</a></li>
+	<li style="float:right"><a href="./signup.html" style="text-decoration:none;">Sign Up</a></li>
+	<li style="float:right"><a href="./login.html" style="text-decoration:none;">Sign In</a></li>
+  </ul>
+  </nav>
+    <section id="overlay">
+      <hr>
+     <form action="submission.html" method="POST">
+	   <!--<form action="signup.html" method="POST">-->
+        <h1>Create your site!</h1>
+					<section class="sitename">
+          <label for="patty">What is the name of your business?</label>
+    			<input type="text" name="sitename" id="sitename" required>
+        </section>
+        <hr>
+        <section class="activesite">
+		<span>Do you already have an active website?</span>
+          <br>
+          <input type="radio" name="activesite" id="yes" value="yes">
+          <label for="yes">Yes</label>
+          <input type="radio" name="activesite" id="no" value="no">
+          <label for="no">No</label><br>
+          <label for="amount">If yes, please enter the URL of your current site</label>
+          <input type="text" name="siteurl" id="siteurl" value="https://"> 
+        <hr>
+        <section class="traffic">
+          <label for="traffic">How much web traffic do you expect?</label>
+          <br>
+          <span>Low</span>
+          <input type="range" name="traffic" id="traffic" value="3" min="1" max="5" required>
+          <span>High</span>
+        </section>
+        <hr>
+        <section class="toppings">
+          <span>What sections do you wish to add? This helps us determine the size of the site</span>
+          <br>
+          <input type="checkbox" name="sections" id="about_us" value="about_us">
+          <label for="about_us">About Us</label>
+          <input type="checkbox" name="sections" id="contact_us" value="contact_us">
+          <label for="contact_us">Contact Us</label>
+          <input type="checkbox" name="contact_us_form" id="contact_us_form" value="contact_us_form">
+          <label for="contact_us_form">Contact Us Form</label><br>
+		  <input type="checkbox" name="login_signup" id="login_signup" value="login_signup">
+          <label for="login_signup">Login/Signup</label><br>
+        </section>
+        <hr>
+        <section class="maintenance">
+          <span>Would you like to have maintenance?</span>
+          <br>
+          <input type="radio" name="maintenance" id="yes" value="yes">
+          <label for="yes">Yes</label>
+          <input type="radio" name="maintenance" id="no" value="yes">
+          <label for="no">No</label>
+        </section>
+        <hr>
+       <!-- <section class="sauce-selection">
+          <label for="sauce">What type of sauce would you like?</label>
+          <input list="sauces" id="sauce" name="sauce">
+          <datalist id="sauces">
+            <option value="ketchup"></option>
+            <option value="mayo"></option>
+            <option value="mustard"></option>
+          </datalist>
+        </section>
+		<hr>-->
+	   <section class="howheard">
+          <label for="howheard">How did you hear about us?</label>
+          <select name="howheard" id="howheard">
+            <option value="google">Google</option>
+            <option value="bing">Bing</option>
+            <option value="currcust">Current Customer</option>
+          </select>
+        </section>
+        <hr>
+        <section class="extra-info">
+          <label for="extra">Anything else you want to add?</label>
+          <br>
+          <textarea id="extra" name="extra" rows="3" cols="40"></textarea>
+        </section>
+        <hr>
+
+        <section class="submission">
+          <!--Add your code below-->
+          <input type="submit" value="Submit">
+        </section>
+        </section>       
+      </form>
+    </section>
+  </body>
+</html>

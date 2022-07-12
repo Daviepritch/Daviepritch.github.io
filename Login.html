@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="style_login.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+  </head>
+  <body>
+      <nav>
+  <ul class="navigation">
+    <li><a href="./home.html" style="text-decoration:none;">Main Page</a></li>
+    <li><a href="./form.html" style="text-decoration:none;">Form</a></li>
+    <li><a href="./table.html" style="text-decoration:none;">Pricing</a></li>
+	<li style="float:right"><a href="./signup.html" style="text-decoration:none;">Sign Up</a></li>
+	<li style="float:right"><a href="./login.html" style="text-decoration:none;">Sign In</a></li>
+  </ul>
+  </nav>
+    <section class="overlay">
+			<h1>Log In</h1>
+      <p>Please sign in to your account:</p>
+      <form action="logsub.html" method="GET">
+        <label for="username">Username:</label>
+        <br>
+				<!--Add the pattern attribute to the input below-->
+				<input id="username" name="username" type="text" required minlength="3" maxlength="15" pattern="[a-zA-Z0-9]+">
+        <br>
+        <label for="pw">Password:</label>
+        <br>
+				<input id="pw" name="pw" type="password" required minlength="8" maxlength="15">
+        <br>
+			        <input type="submit" value="Submit"><br><br>
+		<a href="./signup.html">Need to sign up? Click here to login</a>
+      </form>
+    </section>
+  </body>
+</html>

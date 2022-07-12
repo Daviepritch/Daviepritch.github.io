@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="style_signup.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+  </head>
+  <body>
+    <nav>
+  <ul class="navigation">
+    <li><a href="./home.html" style="text-decoration:none;">Main Page</a></li>
+    <li><a href="./form.html" style="text-decoration:none;">Form</a></li>
+    <li><a href="./table.html" style="text-decoration:none;">Pricing</a></li>
+	<li style="float:right"><a href="./signup.html" style="text-decoration:none;">Sign Up</a></li>
+	<li style="float:right"><a href="./login.html" style="text-decoration:none;">Sign In</a></li>
+  </ul>
+  </nav>
+    <section class="overlay">
+			<h1>Sign Up</h1>
+      <p>Create an account:</p>
+      <form action="submission.html" method="GET">
+	  <label for="first_name">First Name:</label>
+	      <input id="first_name" name="first_name" type="text" required pattern="[a-zA-Z]+"><br>
+	  	  <label for="surname">Surname:</label>
+	      <input id="surname" name="surname" type="text" required pattern="[a-zA-Z]+"><br>
+	  	  	  <label for="email">Email:</label>
+	  <input id="email" name="email" type="text" required ><br>
+	  	  	  	  <label for="busname">Business Name:</label>
+	  <input id="busname" name="busname" type="text" required><br>
+        <label for="username">Username:</label>
+				<input id="username" name="username" type="text" required minlength="3" maxlength="15" pattern="[a-zA-Z0-9]+">
+      <br>
+        <label for="pw">Password:</label>
+				<input id="pw" name="pw" type="password" required minlength="8" maxlength="15">
+        <br>
+		        <label for="cpw">Confirm Password:</label>
+				<input id="cpw" name="cpw" type="password" required minlength="8" maxlength="15">
+        <br><br>
+			        <input type="submit" value="Submit"><br><br>
+		<a href="./login.html">Already a member? Click here to login</a>
+      </form>
+    </section>
+  </body>
+</html>
