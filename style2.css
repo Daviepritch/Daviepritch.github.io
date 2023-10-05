@@ -1,0 +1,70 @@
+/* Reset some default styles to ensure consistency */
+body, h1, h2, h3, p {
+  margin: 3;
+  padding: 3;
+}
+
+/* Set a background color and font for the entire page */
+body {
+  background-color: #CCE1EC;
+  font-family: Arial, sans-serif;
+}
+
+/* Define a container for your website's content */
+.container {
+  max-width: 1200px; /* Adjust this to your preferred content width */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px; /* Add some spacing around the content */
+}
+
+/* Style the header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Style navigation links */
+nav {
+}
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+/* Style main content area */
+.main-content {
+  background-color: #CCE1EC;
+  padding: 20px;
+}
+
+/* Style footer */
+footer {
+  background-color: #CCE1EC;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Add responsive design media queries here for different screen sizes */
