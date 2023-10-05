@@ -13,7 +13,7 @@ body {
 /* Define a container for your website's content */
 .container {
   max-width: 1200px; /* Adjust this to your preferred content width */
-  margin: 0 auto; /* Center the container horizontally */
+  margin: 30 auto; /* Center the container horizontally */
   padding: 20px; /* Add some spacing around the content */
 }
 
@@ -43,7 +43,7 @@ li {
 
 li a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
