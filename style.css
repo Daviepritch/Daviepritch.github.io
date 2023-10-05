@@ -6,7 +6,7 @@ body, h1, h2, h3, p {
 
 /* Set a background color and font for the entire page */
 body {
-  background-color: #f0f0f0;
+  background-color: #CCE1EC;
   font-family: Arial, sans-serif;
 }
 
@@ -47,7 +47,7 @@ nav a {
 
 /* Style main content area */
 .main-content {
-  background-color: #fff;
+  background-color: #CCE1EC;
   padding: 20px;
 }
 
