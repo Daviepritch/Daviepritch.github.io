@@ -14,8 +14,8 @@ body {
   overflow: hidden;
   position:absolute;
   height:610px
-  margin:800px;
-  padding:200px;
+  margin: 800px;
+  padding: 200px;
   font-family: Arial, sans-serif;
 }
 
@@ -48,6 +48,7 @@ nav {
 li {
   float: left;
   border: 0;
+  width: 100%;
 
 }
 
