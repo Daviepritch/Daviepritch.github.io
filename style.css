@@ -11,6 +11,7 @@ body {
   background-size: cover;
   background-attachment:fixed;
   background-position: left top;
+  overflow: hidden;
   position:absolute;
   height:610px
   margin:60;
