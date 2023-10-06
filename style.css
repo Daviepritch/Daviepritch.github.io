@@ -6,7 +6,7 @@ body, h1, h2, h3, p {
 
 /* Set a background color and font for the entire page */
 body {
-  --background-image: url('../images/go_here.png');
+  --background-image: url('../images/background.png');
   background-repeat:repeat-x;
   background-attachment:fixed;
   background-position: left top;
@@ -20,9 +20,9 @@ body {
 
 /* Define a container for your website's content */
 .container {
-  max-width: 1200px; /* Adjust this to your preferred content width */
-  margin: 30 auto; /* Center the container horizontally */
-  padding: 20px; /* Add some spacing around the content */
+  max-width: 800px; /* Adjust this to your preferred content width */
+  margin: 60 auto; /* Center the container horizontally */
+  padding: 60px; /* Add some spacing around the content */
 }
 
 /* Style the header */
