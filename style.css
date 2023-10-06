@@ -14,7 +14,8 @@ body {
   overflow: hidden;
   position:absolute;
   height:610px
-  margin:0;
+  margin:800px;
+  padding:200px;
   font-family: Arial, sans-serif;
 }
 
