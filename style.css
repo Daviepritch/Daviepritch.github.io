@@ -6,15 +6,14 @@ body, h1, h2, h3, p {
 
 /* Set a background color and font for the entire page */
 body {
-  --background-image: url('../images/background.jpg');
+  background-image: url('../images/background.jpg');
   background-repeat:repeat-x;
+  background-size: cover;
   background-attachment:fixed;
   background-position: left top;
   position:absolute;
   height:610px
-  width: 610px;
   margin:0;
-  background-color: #CCE1EC;
   font-family: Arial, sans-serif;
 }
 
