@@ -6,7 +6,7 @@ body, h1, h2, h3, p {
 
 /* Set a background color and font for the entire page */
 body {
-  background-image: url('../images/background.jpg');
+  background-image: url('../images/background.png');
   background-repeat:repeat-x;
   background-size: cover;
   background-attachment:fixed;
