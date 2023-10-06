@@ -21,8 +21,8 @@ body {
 /* Define a container for your website's content */
 .container {
   max-width: auto; /* Adjust this to your preferred content width */
-  margin: 100 auto; /* Center the container horizontally */
-  padding: 100px; /* Add some spacing around the content */
+  margin: auto; /* Center the container horizontally */
+  padding: auto; /* Add some spacing around the content */
 }
 
 /* Style the header */
