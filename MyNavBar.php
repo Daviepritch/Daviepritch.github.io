@@ -8,8 +8,6 @@ $menuItems = [
 ];
 
 // Get the current page's filename
-$currentFileName = basename($_SERVER['PHP_SELF']);
-?>
 
 <!DOCTYPE html>
 <html>
