@@ -32,6 +32,8 @@ header {
   color: #fff;
   padding: 20px 0;
   text-align: center;
+  overflow: hidden;
+  width: 100%;
 }
 
 /* Style navigation links */
@@ -48,7 +50,7 @@ nav {
 li {
   float: left;
   border: 0;
-  width: 100%;
+
 
 }
 
