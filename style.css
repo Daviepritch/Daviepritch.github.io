@@ -1,7 +1,7 @@
 /* Reset some default styles to ensure consistency */
 body, h1, h2, h3, p {
-  margin: 3;
-  padding: 3;
+  margin: 0;
+  padding: 0;
 }
 
 /* Set a background color and font for the entire page */
@@ -13,7 +13,6 @@ body {
   background-position: left top;
   overflow: hidden;
   position:absolute;
-  height:610px
   font-family: Arial, sans-serif;
   text-align: center;
 }
@@ -60,7 +59,6 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  width: 100%;
 }
 
 /* Change the link color to #111 (black) on hover */
