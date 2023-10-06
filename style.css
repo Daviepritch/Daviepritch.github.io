@@ -20,7 +20,7 @@ body {
 
 /* Define a container for your website's content */
 .container {
-  max-width: 1200px; /* Adjust this to your preferred content width */
+  max-width: auto; /* Adjust this to your preferred content width */
   margin: 100 auto; /* Center the container horizontally */
   padding: 100px; /* Add some spacing around the content */
 }
@@ -44,6 +44,7 @@ nav {
   padding: 0;
   overflow: hidden;
   background-color: #f3f3f3;
+  width:100%;
 }
 
 li {
