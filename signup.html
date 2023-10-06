@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>DEP Web - Home</title>
+  <title>DEP Web - Sign Up</title>
   <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
   <link href="style.css" type="text/css" rel="stylesheet">
 </head>
@@ -19,3 +19,19 @@
 
   </ul>
   </nav>
+<body>
+    <h2>Sign Up</h2>
+    <form action="process_signup.php" method="post">
+        <label for="username">Username:</label>
+        <input type="text" name="username" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" name="email" required><br><br>
+        
+        <label for="password">Password:</label>
+        <input type="password" name="password" required><br><br>
+        
+        <input type="submit" value="Sign Up">
+    </form>
+</body>
+</html>
