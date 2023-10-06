@@ -14,15 +14,15 @@ body {
   overflow: hidden;
   position:absolute;
   height:610px
-  margin:60;
+  margin:0;
   font-family: Arial, sans-serif;
 }
 
 /* Define a container for your website's content */
 .container {
-  max-width: 1000px; /* Adjust this to your preferred content width */
-  margin: 60 auto; /* Center the container horizontally */
-  padding: 60px; /* Add some spacing around the content */
+  max-width: 800px; /* Adjust this to your preferred content width */
+  margin: 100 auto; /* Center the container horizontally */
+  padding: 100px; /* Add some spacing around the content */
 }
 
 /* Style the header */
