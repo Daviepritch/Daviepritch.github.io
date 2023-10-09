@@ -24,6 +24,13 @@ body {
   padding: auto; /* Add some spacing around the content */
 }
 
+/* Define a container for your website's content */
+.text-container {
+  background-colour: #f3f3f3;  /* Adjust this to your preferred content width */
+  padding: 20px; /* Add some spacing around the content */
+  margin: 60%; /* Center the container horizontally */
+}
+
 /* Style the header */
 header {
   background-color: #333;
