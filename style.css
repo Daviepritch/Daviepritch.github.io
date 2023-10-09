@@ -50,13 +50,12 @@ nav {
   padding: 0;
   overflow: hidden;
   background-color: #f3f3f3;
-  width:100%;
 }
 
 li {
   float: left;
   border: 0;
-  width:100%;
+  width:20%;
 
 
 }
